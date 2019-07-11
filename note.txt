@@ -1,0 +1,14 @@
+use npx create-react-app projectName to create app without installing react first
+
+-------------List of commands I used after the above line:---------------------
+- created a backend folder in react app
+- npm install express cors mangoose dotenv
+- npm install -g nodemon
+
+
+--------------About the packages-----------------------
+- Express : A lightweight framework  of node.js
+- cors(Cross Origin resource Sharing) : allows ajax requests to skip same origin policy & access resource from remote hosts
+- Mongoose : makes interaction with MongoDB through node.js simpler
+- dotenv : loads environment variable, instead of setting environment variables on sys they can be stored in a file
+- nodemon : refreshes the application when files are changed
