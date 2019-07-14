@@ -15,3 +15,5 @@ use npx create-react-app projectName to create app without installing react firs
 
 Inside the models folder of backend we have defined the data structure of users and exercises.
 Inside the routes folder of backend we are using an API to help the server perform CRUD operations.
+
+
