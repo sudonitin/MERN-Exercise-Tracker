@@ -21,6 +21,14 @@ connection.once('open', () => {
     console.log("MongoDB connected successfully");
 });
 
+//**We are informing server about these routes**/
+const exercisesRouter = require('./routes/exercise');
+const usersRouter = require('./routes/user');
+
+app.use('/exercise', exercisesRouter);
+app.use('/user', usersRouter);
+//ENDS
+
 //Starts the server by nodemon command
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);

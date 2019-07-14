@@ -12,3 +12,6 @@ use npx create-react-app projectName to create app without installing react firs
 - Mongoose : makes interaction with MongoDB through node.js simpler
 - dotenv : loads environment variable, instead of setting environment variables on sys they can be stored in a file
 - nodemon : refreshes the application when files are changed
+
+Inside the models folder of backend we have defined the data structure of users and exercises.
+Inside the routes folder of backend we are using an API to help the server perform CRUD operations.
