@@ -10,7 +10,7 @@ router.route('/').get((req, res) => {
 router.route('/add').post((req,res) => {
     const username = req.body.username;
     const newUser = new User({username});
-    newUser.save() // mongoose fn used to add data to DB
+    newUser.save() // mongoose fn used to add data to D
         .then(() => res.json('User added'))
         .catch(err => res.status(400).json('Error: '+ err));
 });
